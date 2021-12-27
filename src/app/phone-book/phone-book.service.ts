@@ -12,7 +12,8 @@ export class PhoneBookService {
     private http:HttpClient
   ) { }
 
-  baseURL = "http://localhost:9090";
+  // baseURL = "http://localhost:9090";
+  baseURL = "https://limitless-fjord-71421.herokuapp.com/";
 
   // findAllContacts
   public findAllContacts():Observable<PhoneBook[]>{
