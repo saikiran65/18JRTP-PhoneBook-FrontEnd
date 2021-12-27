@@ -13,7 +13,7 @@ export class PhoneBookService {
   ) { }
 
   // baseURL = "http://localhost:9090";
-  baseURL = "https://limitless-fjord-71421.herokuapp.com/";
+  baseURL = "https://limitless-fjord-71421.herokuapp.com";
 
   // findAllContacts
   public findAllContacts():Observable<PhoneBook[]>{
